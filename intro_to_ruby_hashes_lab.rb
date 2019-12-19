@@ -4,7 +4,7 @@ new_hash
 end
 
 def actor
-  name: "Dwayne The Rock Johnson"
+  actor = {name: "Dwayne The Rock Johnson"}
   
 expect(actor[:name]).to eq("Dwayne The Rock Johnson")
 
