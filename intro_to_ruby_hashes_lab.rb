@@ -1,8 +1,21 @@
 def new_hash
-
+books = {}
+new_hash
 end
 
 def actor
+  name: "Dwayne The Rock Johnson"
+  
+expect(actor[:name]).to eq("Dwayne The Rock Johnson")
+
+contacts = {
+  "Jon Snow" => {
+    name: "Jon",
+    email: "jon_snow@thewall.we",
+    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
+
+
+
 
 end
 
